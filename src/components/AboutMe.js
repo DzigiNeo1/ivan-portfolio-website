@@ -52,13 +52,19 @@ export const AboutMe = () => {
                 <b>CSS</b>
               </li>
               <li>
-                <b>React-Bootstrap</b>
+                <b>Bootstrap</b>
               </li>
               <li>
                 <b>Next.js</b>
               </li>
               <li>
                 <b>Git/Github</b>
+              </li>
+              <li>
+                <b>React-Native</b>
+              </li>
+              <li>
+                <b>EXPO/Android Studio</b>
               </li>
             </ul>
           </Col>

@@ -1,15 +1,6 @@
 .page-footer {
-  background: #e8cbc0; 
-  background: -webkit-linear-gradient(
-    to top,
-    #636fa4,
-    #e4d1cb
-  ); 
-  background: linear-gradient(
-    to top,
-    #636fa4,
-    #e2cec7
-  ); 
+  background: #e8cbc0;
+  background: linear-gradient(to top, #eeded9, #c4bcd8);
   padding-bottom: 0px;
   margin-bottom: 0;
 }
@@ -22,13 +13,13 @@
   position: relative;
   cursor: pointer;
 }
-.page-footer li a{
- color: black !important;
+.page-footer li a {
+  color: black !important;
 }
 
-.linkedin{
-   max-width: 10px !important;
+.linkedin {
+  max-width: 10px !important;
 }
-.icon{
+.icon {
   border-radius: 50%;
 }

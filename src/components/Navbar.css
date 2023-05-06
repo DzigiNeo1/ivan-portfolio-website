@@ -17,10 +17,14 @@ nav a.nav-link:hover {
 }
 nav a.nav-link:active {
   border-top: 1px solid rgb(85, 164, 170);
+  caret-color: transparent;
 }
 .nav-link {
   caret-color: transparent;
 }
 .logo {
+  caret-color: transparent;
+}
+.navbar-toggler-icon {
   caret-color: transparent;
 }

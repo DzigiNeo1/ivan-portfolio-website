@@ -1,17 +1,9 @@
 .portfolio-wrapper {
   position: relative;
   z-index: 2;
-  background: #d3cce3; 
-  background: -webkit-linear-gradient(
-    to top,
-    #e9e4f0,
-    #d3cce3
-  ); 
-  background: linear-gradient(
-    to top,
-    #e9e4f0,
-    #d3cce3
-  ); 
+  background: #d3cce3;
+  background: -webkit-linear-gradient(to top, #e9e4f0, #d3cce3);
+  background: linear-gradient(to top, #e9e4f0, #d3cce3);
 }
 
 .cards:hover {
@@ -23,4 +15,3 @@
 .row-h1 {
   color: white;
 }
-
