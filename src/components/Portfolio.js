@@ -9,10 +9,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Portfolio = () => {
-    useEffect(() => {
-      AOS.init();
-      AOS.refresh();
-    }, []);
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
 
   return (
     <>
@@ -25,7 +25,7 @@ const Portfolio = () => {
             <Card
               data-aos="fade-up"
               bg="light"
-              className="cards mx-1"
+              className="cards mx-1 py-2"
               style={{ width: "240px" }}
             >
               <Card.Img variant="top" src={Auth} />
@@ -46,7 +46,7 @@ const Portfolio = () => {
             <Card
               data-aos="fade-up"
               bg="light"
-              className="cards mx-1"
+              className="cards mx-1 py-2"
               style={{ width: "240px" }}
             >
               <Card.Img variant="top" src={Meals} />
@@ -66,7 +66,7 @@ const Portfolio = () => {
             <Card
               data-aos="fade-up"
               bg="light"
-              className="cards mx-1"
+              className="cards mx-1 py-2"
               style={{ width: "240px" }}
             >
               <Card.Img variant="top" src={PigGame} />
@@ -87,7 +87,7 @@ const Portfolio = () => {
             <Card
               data-aos="fade-right"
               bg="light"
-              className="cards mx-1"
+              className="cards mx-1 py-2"
               style={{ width: "240px" }}
             >
               <Card.Img variant="top" src={Todo} />
@@ -99,6 +99,7 @@ const Portfolio = () => {
                 <Button
                   href="https://github.com/DzigiNeo1/AuthenticationDemoApp/tree/master"
                   variant="secondary"
+                  className="d-f "
                 >
                   Check it out!
                 </Button>
