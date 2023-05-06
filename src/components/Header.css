@@ -1,0 +1,22 @@
+.button-contact {
+  box-shadow: inset;
+  box-shadow: aquamarine;
+  border-radius: 50px;
+  font-size: large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(85, 164, 170) !important;
+  cursor: pointer;
+  color: gainsboro;
+  border: 2px solid rgb(85, 164, 170) !important;
+  margin-top: 20px;
+  z-index: 2;
+}
+.type-animation {
+  font-size: 25px;
+  opacity: 60%;
+  color: rgb(85, 164, 170);
+}
+
+.div-button-contact {
+  z-index: 3;
+}

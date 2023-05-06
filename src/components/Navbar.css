@@ -1,0 +1,26 @@
+.logo {
+  max-width: 120px;
+  color: rgb(148, 148, 148) !important;
+  border-radius: 50%;
+}
+
+nav a.nav-link {
+  font-weight: 600;
+  font-size: large;
+  letter-spacing: 1px;
+  margin: 0 15px;
+  border-top: 1px solid rgb(43, 39, 39);
+}
+nav a.nav-link:hover {
+  border-top: 1px solid rgb(85, 164, 170);
+  transition: 0.5s ease-in-out;
+}
+nav a.nav-link:active {
+  border-top: 1px solid rgb(85, 164, 170);
+}
+.nav-link {
+  caret-color: transparent;
+}
+.logo {
+  caret-color: transparent;
+}

@@ -1,0 +1,31 @@
+.contact-me {
+  background: rgba(207, 207, 231, 0.568);
+  position: relative;
+  z-index: 2;
+  padding-bottom: 20px;
+  background: #d3cce3;
+  background: -webkit-linear-gradient(to bottom, #e9e4f0, #d3cce3);
+  background: linear-gradient(to bottom, #e9e4f0, #d3cce3);
+}
+.contact-me h1,
+p {
+  color: white;
+}
+
+.form-label {
+  color: white !important;
+}
+
+.div h1,
+span {
+  color: white;
+}
+
+.success {
+  color: green;
+  text-transform: uppercase;
+  text-decoration: solid;
+  margin-top: 10px;
+  font-size: large;
+  font-style: oblique;
+}

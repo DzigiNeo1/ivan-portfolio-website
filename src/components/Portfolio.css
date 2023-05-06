@@ -1,0 +1,26 @@
+.portfolio-wrapper {
+  position: relative;
+  z-index: 2;
+  background: #d3cce3; 
+  background: -webkit-linear-gradient(
+    to top,
+    #e9e4f0,
+    #d3cce3
+  ); 
+  background: linear-gradient(
+    to top,
+    #e9e4f0,
+    #d3cce3
+  ); 
+}
+
+.cards:hover {
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+.row-h1 {
+  color: white;
+}
+
